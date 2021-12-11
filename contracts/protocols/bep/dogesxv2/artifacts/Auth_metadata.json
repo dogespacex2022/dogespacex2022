@@ -1,0 +1,152 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					}
+				],
+				"name": "OwnershipTransferred",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "adr",
+						"type": "address"
+					}
+				],
+				"name": "authorize",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "adr",
+						"type": "address"
+					}
+				],
+				"name": "isAuthorized",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "isOwner",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "adr",
+						"type": "address"
+					}
+				],
+				"name": "transferOwnership",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "adr",
+						"type": "address"
+					}
+				],
+				"name": "unauthorize",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"authorize(address)": {
+					"notice": "Authorize address. Owner only"
+				},
+				"isAuthorized(address)": {
+					"notice": "Return address' authorization status"
+				},
+				"isOwner(address)": {
+					"notice": "Check if address is owner"
+				},
+				"transferOwnership(address)": {
+					"notice": "Transfer ownership to new address. Caller must be owner. Leaves old owner authorized"
+				},
+				"unauthorize(address)": {
+					"notice": "Remove address' authorization. Owner only"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/protocols/bep/dogesxv2/DOGESX.sol": "Auth"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/protocols/bep/dogesxv2/DOGESX.sol": {
+			"keccak256": "0xb1c2b60d4200bf03d0fe034424eb301773de44637e73f15de2d74a903308e700",
+			"license": "No License (None)",
+			"urls": [
+				"bzz-raw://33853d6f81b86accd016f2548ae763e38f7ee7793d6fc394f9682af51b94e593",
+				"dweb:/ipfs/QmdV49mF1pBomttjP3159NqykvGGGLVAnmaSJZ3nKonk2A"
+			]
+		}
+	},
+	"version": 1
+}

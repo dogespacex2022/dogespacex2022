@@ -1,0 +1,46 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "SAFEMATH LIBRARY",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/protocols/bep/dogesxv2/DOGESX.sol": "SafeMath"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/protocols/bep/dogesxv2/DOGESX.sol": {
+			"keccak256": "0xb1c2b60d4200bf03d0fe034424eb301773de44637e73f15de2d74a903308e700",
+			"license": "No License (None)",
+			"urls": [
+				"bzz-raw://33853d6f81b86accd016f2548ae763e38f7ee7793d6fc394f9682af51b94e593",
+				"dweb:/ipfs/QmdV49mF1pBomttjP3159NqykvGGGLVAnmaSJZ3nKonk2A"
+			]
+		}
+	},
+	"version": 1
+}
